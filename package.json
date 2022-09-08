@@ -1,0 +1,42 @@
+{
+  "name": "@hexdigital/config-commitlint",
+  "version": "1.0.0",
+  "packageManager": "pnpm@7.1.9",
+  "description": "Hex Digital's commitlint config enforcing conventional commits",
+  "scripts": {
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hex-digital/config-commitlint.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "commitlint",
+    "commitlint-config",
+    "hex-digital"
+  ],
+  "author": "Jamie Warburton <jamie@hexdigital.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hex-digital/config-commitlint/issues"
+  },
+  "homepage": "https://hexdigital.com/",
+  "engines": {
+    "node": ">=v14"
+  },
+  "dependencies": {
+    "bumpp": "^8.2.1",
+    "conventional-changelog-conventionalcommits": "^5.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@hexdigital/config-commitlint": "*"
+  }
+}
