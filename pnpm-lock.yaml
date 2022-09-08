@@ -4,6 +4,7 @@ specifiers:
   '@commitlint/cli': ^17.1.2
   bumpp: ^8.2.1
   conventional-changelog-conventionalcommits: ^5.0.0
+  husky: ^8.0.1
 
 dependencies:
   bumpp: 8.2.1
@@ -11,6 +12,7 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli': 17.1.2
+  husky: 8.0.1
 
 packages:
 
@@ -700,6 +702,12 @@ packages:
   /human-signals/2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
+    dev: true
+
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /import-fresh/3.3.0:
