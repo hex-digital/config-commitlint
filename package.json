@@ -1,6 +1,6 @@
 {
   "name": "@hexdigital/config-commitlint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packageManager": "pnpm@7.1.9",
   "description": "Hex Digital's commitlint config enforcing conventional commits",
   "scripts": {
